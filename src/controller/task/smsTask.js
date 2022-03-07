@@ -10,7 +10,7 @@ app.get("/task/sendSms", async (req, res) => {
             "varParams": "[\"autoBind\"]"
         },
         {
-            token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyMTAxIiwicGFzc1dvcmQiOiJlMTBhZGMzOTQ5YmE1OWFiYmU1NmUwNTdmMjBmODgzZSIsImlhdCI6MTY0MzE4NTM1NywiZXhwIjoxNjU4NzM3MzU3fQ.linRsMPhQ44nSVyBvkZ3oON_hxiH07mGxtxH-Y215xY"
+            token: "xxs.eyJ1c2VySWQiOiIyMTAxIiwicGFzc1dvcmQiOiJlMTBhZGMzOTQ5YmE1OWFiYmU1NmUwNTdmMjBmODgzZSIsImlhdCI6MTY0MzE4NTM1NywiZXhwIjoxNjU4NzM3MzU3fQ.linRsMPhQ44nSVyBvkZ3oON_hxiH07mGxtxH-Y215xY"
         }
     )
     let re= M.successResult(r);
@@ -22,13 +22,13 @@ app.get("/task/sendSms", async (req, res) => {
 app.get("/task/sendSms1", async (req, res) => {
     let  r= await  M.post(CONFIG.crmHost+"/home/smsTemp/sendSms",
         {
-            "selectedSmsId": "SMS_234041184",
+            "selectedSmsId": "SMS_234041184aa",
             "selectedReceiverId": 3,
             "phoneArr": "[]",
             "varParams": "[\"autoBind\"]"
         },
         {
-            token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyMTAxIiwicGFzc1dvcmQiOiJlMTBhZGMzOTQ5YmE1OWFiYmU1NmUwNTdmMjBmODgzZSIsImlhdCI6MTY0MzE4NTM1NywiZXhwIjoxNjU4NzM3MzU3fQ.linRsMPhQ44nSVyBvkZ3oON_hxiH07mGxtxH-Y215xY"
+            token: "aeyJhbGciOiJIUsssszI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIyMTAxIiwicGFzc1dvcmQiOiJlMTBhZGMzOTQ5YmE1OWFiYmU1NmUwNTdmMjBmODgzZSIsImlhdCI6MTY0MzE4NTM1NywiZXhwIjoxNjU4NzM3MzU3fQ.linRsMPhQ44nSVyBvkZ3oON_hxiH07mGxtxH-Y215xY"
         }
     )
     let re= M.successResult(r);
