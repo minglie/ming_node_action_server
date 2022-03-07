@@ -9,10 +9,9 @@ async function main(){
         {
             remoteStatic:true   //使用远程的静态资源
         });
-      console.log("文件管理插件安装成功 ==>  http://localhost:8888/index.html#/file")
-      console.log("x https://gitee.com/minglie/ming_file_manager/blob/master/Readme.md#%E6%96%87%E4%BB%B6%E5%81%9A%E6%95%B0%E6%8D%AE%E6%BA%90")
+      console.log("文件管理插件安装成功 访问==>  http://localhost:8888/index.html#/file")
+      console.log("代码仓库==> https://gitee.com/minglie/ming_file_manager/blob/master/Readme.md#%E6%96%87%E4%BB%B6%E5%81%9A%E6%95%B0%E6%8D%AE%E6%BA%90")
 }
-
 
 
 main();
